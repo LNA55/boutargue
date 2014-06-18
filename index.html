@@ -1,10 +1,20 @@
 <!DOCTYPE html> 
 <html>
 
+<!-- 
+PARTIE HEAD
+	Inclus les balises meta, script et link. 
+-->
+
 <head>
 	<title>La maison de la boutargue</title>
+	<!-- HEAD TOUTES LES BALISES META -->
 	<meta charset="UTF-8">
-	<script type="text/javascript">
+	<meta name="description" content="Recettes et produits traiteur autour de la boutargue, oeufs de mullet sechés.">
+	<meta name="author" content="Elena Web">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- HEAD TOUTES LES BALISES SCRIPT -->
+		<script type="text/javascript">
 	 			var _gaq = _gaq || [];
 	  			_gaq.push(['_setAccount', 'UA-32203429-1']);
 	  			_gaq.push(['_trackPageview']);
@@ -13,129 +23,192 @@
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 				})();
-	</script>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	<style> 
-		section.bloc1{background-color:#DB7B1A;}
-		section.bloc2{background-color:#FFB870;}
-		section.bloc3{background-color:#F0C090;}
-		span.action{text-align:center}
-		nav {text-align:right}
-		section {
-    		padding-top: 15px;
-    		padding-bottom: 15px;
-    		padding-right: 20px;
-    		padding-left: 20px;
-			}
-		div {
-    		padding-top: 10px;
-    		padding-bottom: 10px;
-    		padding-right: 10px;
-    		padding-left: 10px;
-			}
-
-	</style>
-	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-	</script>
-	<script>(function(d, s, id) {
-  		var js, fjs = d.getElementsByTagName(s)[0];
+		</script>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+		</script>
+		<script>(function(d, s, id) {
+  			var js, fjs = d.getElementsByTagName(s)[0];
   		if (d.getElementById(id)) return;
   		js = d.createElement(s); js.id = id;
   		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
-	</script>
+		</script>
+		<script src="/script/script-mailchimp.html"></script>
+	<!-- HEAD TOUTES LES BALISES LINK notamment vers les feuilles de style -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
+	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/reset.css" type="text/css"> 
+		<!-- Latest compiled and minified CSS -->
+			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<!-- Optional theme -->
+			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<!-- Latest compiled and minified JavaScript -->
+			<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
 </head>
 
+<!-- 
+PARTIE BODY
+	On va faire un scroll website pour la home page, avec tout de même quelques pages pour un complément d'info.
+-->
 
 <body>
+
 	<header>
 		<div>
-			<nav>
-				<a href="http://www.shoette.com">Recettes</a> |
-				<a href="http://www.shoette.com">Produits</a> |
-				<a href="http://www.shoette.com">Infos sur la boutargue</a>
-			</nav>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">"
+					<nav>
+						<a href class="top1" ="http://www.shoette.com">Recettes</a> |
+						<a href class="top1" ="http://www.shoette.com">Produits</a> |
+						<a href class="top1" ="http://www.shoette.com">Infos sur la boutargue</a>
+					</nav>
+				</div>
 		</div>
-		<div> 
+		<div class="header"> 
 			<h1>La maison de la boutargue</h1>
-			<h2>Recettes et produits autour de la boutargue</h2>
+			<h2>Recettes et produits autour de la boutargue</h2><br>
 		</div>
 	</header>
-	<section class="bloc1">
+
+	<section class="bloc-recettes">
 		<div class="slider">
-  			<h3>Recettes de plats à la boutargue</h3>
-  			Si possible, intégrer ici un slider avec 3 recettes 
-  			<h4>spaghettis boutargue par Alain Ducasse</h4>
-  			<img src="images/spaghetti.boutargue.png" width="400px">
-  			<p>
-				Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. <br>
+  		<h3>Recettes de plats à la boutargue</h3>
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">"
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner">
+					    <div class="item active">
+					    	<div class="col-md-3 col-md-offset-2">"
+					      		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
+					      	</div>
+					      	<div class="col-md-5 col-md-offset-6">"
+					      		<div class="carousel-caption">
+					        	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
+					      		</div>
+					    	</div>
+					  	</div>
+					  <div>
+					  <!-- Controls -->
+					  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+					  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+					</div>
+				</div>
+			</div>
+<!--
+  			dans une page dédiée, la totalité de la recette :
 				1. Faire cuire les spaghetti selon le temps indiqué sur l’emballage.<br>
 				2. A l’aide d’un petit couteau d’office, retirer la cire ou la membrane d’une demi-poutargue. Puis, trancher le plus finement possible la poutargue (avec un économe, une mandoline, ou un couteau d’office). Réserver dans une assiette. Râper le zeste du citron dessus. Presser le jus du fruit et réserver.<br>
 				3. Peler et hacher trois gousses d’ail. Rincer et sécher les feuilles de sauge, ciseler les grandes et conserver entières les petites.<br>
 				4. Egoutter les spaghetti et les mettre dans une jatte. Verser un filet d’huile dans la casserole encore chaude des pâtes, ajouter l’ail et le faire suer deux minutes en remuant. Ajouter trois pincées de piment d’Espelette. Remuer, verser les spaghetti et le jus de citron et bien mélanger pour lier le tout. Ajouter la sauge ciselée et les copeaux de poutargue au citron, mélanger et servir immédiatement.<br>
   			</p>
-  		</div>
-  		<div class="action">
-  			Intégrer ici le bouton vers <a href="http://www.shoette.com">autres recettes de <abbr title="apéritifs, entrées, accompagnements et plats">plats</abbr> à la boutargue"</a>
+  -->
+  		<div class="action">			
+			<button type="button" class="btn btn-default"><a href="http://www.shoette.com" class="button">Découvrir d'autres recettes</a></button>
   		</div>
   		<div class="descendre">
-  			<i class="fa fa-angle-double-down"></i>styliser ce "bouton" pour descendre
+  			<br>
+  			<div class="row">
+			  <div class="col-md-2 col-md-offset-5">
+			  	<i class="fa fa-angle-double-down">
+			  	</i>
+			  </div>
+			</div>
   		</div>
 	</section>
-	<section class="bloc2">
-		<div class="slider">
+
+	<section class="bloc-produits">
+		<div class="produit">
   			<h3>Produits traiteur à base de boutargue</h3><br>
-  			Image du produit à gauche
-  			<a href="http://www.shoette.com"><img src="images/pate.a.tartiner.boutargue.jpg" width="300px"></a><br>
-  			Texte du produit à droite
+			<div class="row">
+			  <div class="col-md-3 col-md-offset-1"><a href="http://www.shoette.com"><img src="images/pate.a.tartiner.boutargue.jpg" width="300px"></a></div>
+			  <div class="col-md-5 col-md-offset-1">Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. </div>
+			</div>
+  		</div>
   		<div class="action">
-  			Intégrer ici le bouton <a href="http://www.shoette.com">Pré-commander</a>
+  			<button type="button" class="btn btn-default"><a href="http://www.shoette.com" class="button">Pré-commander</a></button>
   		</div>
   		<div class="descendre">
-  			<i class="fa fa-angle-double-down"></i>styliser ce "bouton" pour descendre
+  			<br>
+  			<div class="row">
+			  <div class="col-md-2 col-md-offset-5">
+			  	<i class="fa fa-angle-double-down"></i>
+			  </div>
+			</div>
   		</div>
 	</section>
-	<section class="bloc3">
-  		<div> 
+
+	<section class="bloc-infos">
+  		<div class="text"> 
   			<h3>Qui nous sommes</h3><br>
-  			<p>intégrer ici le texte de présentation</p>
-  		</div>
+				<div class="row">
+			  		<div class="col-md-10 col-md-offset-1">
+			  			<p>Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. </p>
+  					</div>
+  				</div>
   		<div class="action">
-  			<p>intégrer ici le champ pour s'inscrire à la newsletter
-  			<form action="/users/sign_in">
-  				<input type="text" name="email">
-  				<input type="submit" value="Envoyer">
-  			</form></p>
+  			<p>Pour être averti du mancement, entrez votre email ici</p>
+			<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
   		</div>
   		<div class="descendre">
-  			<i class="fa fa-angle-double-down"></i>styliser ce "bouton" pour descendre
+  			<br>
+  			<div class="row">
+			  <div class="col-md-2 col-md-offset-5">
+			  	<i class="fa fa-angle-double-down">
+			  	</i>
+			  </div>
+			</div>
   		</div>
 	</section>
+
 	<footer>
 		<section>
-		Intégrer ici trois colonnes
-			<div>
-				Colonne 1 : texte, résumé de qui nous sommes
-			</div>	
-			<div>
-				Colonne 2 : liste de liens utiles
-			</div>	
-			<div>
-				Colonne 3 : Actu Boutargue<br>
-				<a href="https://twitter.com/missboutargue" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @MissBoutargue</a>
+			<div class="row">
+				<br>
+			  <div class="col-md-3 col-md-offset-1">
+			  	L'essentiel <br><br>
+			  	Ici le résumé de ce qu'est ce site et à qui il s'adresse. Ici le résumé de ce qu'est ce site et à qui il s'adresse.  
+			  </div>
+			  <div class="col-md-3 col-md-offset-0">
+			  	Liens utiles<br><br>
+			  	<ol>
+			  		<li>> lien lien lien lien lien lien lien lien 1</li>
+			  		<li>> lien lien lien lien lien lien lien lien 2</li>
+			  		<li>> lien lien lien lien lien lien lien lien 3</li>
+			  		<li>> lien lien lien lien lien lien lien lien 4</li>
+			  </div>
+			  <div class="col-md-3 col-md-offset-0">
+			  	Boutargue Actu<br><br>
+			  	<a href="https://twitter.com/missboutargue" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @MissBoutargue</a></br>
+			  	Mettre une like box Facebook
+			  </div>
+			</div>
 		</section>	
 		<section> 
-			<nav>
-				<a href="http://www.shoette.com">Plan du site</a> |
-				<a href="http://www.shoette.com">Contact</a>
-			</nav>
-			<p>La Maison de la Boutargue © Copyright 2014 @LNAcorp</p>
+			<div class="row">
+			  	<div class="col-md-7">
+			  		La Maison de la Boutargue © Copyright 2014 @LNAcorp
+			  	</div>
+				<div class="col-md-3 col-md-offset-1">"
+					<nav>
+						<a href="http://www.shoette.com">Plan du site</a> |
+						<a href="http://www.shoette.com">Contact</a>
+					</nav> <!-- Pourquoi ce n'est pas sur une seule ligne? C'est quoi le pixel qui traine tout seul? -->
+				</div>
+			</div>
 		</section>
-
 	</footer>
-
-
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>		
 
 </body>
 </html>
+

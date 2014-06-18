@@ -1,17 +1,145 @@
-section.bloc1{background-color:#DB7B1A;}
-section.bloc2{background-color:#FFB870;}
-section.bloc3{background-color:#F0C090;}
-span.action{text-align:center}
-nav {text-align:right}
-section {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-right: 20px;
-    padding-left: 20px;
+/* ------- STYLE COMMUN A TOUTE LA PAGE ------- */
+
+
+	/* unvisited link */
+a:link {
+    color: #D18708;
 	}
+
+	/* visited link */
+a:visited {
+    color: #D18708;
+	}
+
+	/* mouse over link */
+a:hover {
+    color: #000000;
+    font-weight: bold; 
+	}
+
+	/* selected link */
+a:active {
+    color: #000000;
+    font-style: bold;
+	}
+
+
+/* ------- STYLE POUR LE HEADER ------- */
+
+a.top1:link {
+    color: #ADADAC;
+	}
+
+	/* visited link */
+a.top1:visited {
+    color: #ADADAC;
+	}
+
+	/* mouse over link */
+a.top1:hover {
+    color: #D18708;
+    font-weight: bold; 
+	}
+
+	/* selected link */
+a.top1:active {
+    color: #D18708;
+    font-style: bold;
+	}
+
+nav {
+	text-align:right;
+	color: #ADADAC;
+	}
+
+nav a {
+ 	font-size: 14px;
+ 	font-weight: bold;
+	}
+
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #000000;	
+	font-family: sans-serif; 
+	padding-bottom: 0px; /* !!! comment réduire l'interligne?*/
+	}
+
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;	
+	font-family: sans-serif; 
+	}
+
+h3 {
+	font-size: 22px;
+	font-weight: normal;
+	color: #ffffff;	
+	font-family: sans-serif; 
+	text-align: center;
+	}
+
+/* STYLE POUR LE BODY */
+
+.carousel {
+  height: 320px;
+  overflow: hidden;
+	.item img {
+    width: 100%;
+    height: auto;
+ 		}
+	}
+
+.carousel-caption {
+    color: black;
+    font-weight: normal;
+	}
+
+.carousel-inner {
+	background-color: #ADADAC;
+	}
+	/* - Je ne sais pas comment modifier la couleur du caroussel : je ne veux pas son dégradé, et je veux de la transparence comme un voile blanc sur le background de la section */
+
+section.bloc-recettes {
+	background-color:#E3A334;
+	border: 1px;
+	border-color: white;
+	}
+
+section.bloc-produits {
+	background-color:#ADADAC;
+	}
+
+section.bloc-infos {
+	background-color:#DB7B1A;
+	}
+
+span.action{text-align:center}
+
+div.action {
+	text-align: center;
+	}
+
+div.descendre {
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	}
+
+section {
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+    padding-left: 6px;
+	}
+	
 div {
-    padding-top: 10px;
-   	padding-bottom: 10px;
-  	padding-right: 10px;
-   	padding-left: 10px;
+    padding-top: 1px;
+   	padding-bottom: 5px;
+  	padding-right: 5px;
+   	padding-left: 1px;
  }
+
+/* ------- STYLE POUR LE FOOTER ------- */
+
