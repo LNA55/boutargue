@@ -36,13 +36,22 @@ PARTIE HEAD
 		</script>
 		<script src="/script/script-mailchimp.html"></script>
 	<!-- HEAD TOUTES LES BALISES LINK notamment vers les feuilles de style -->
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> 
 	<link href='http://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
+		<style type="text/css">
+			#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+			   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+		</style>
 	<link rel="stylesheet" href="stylesheets/reset.css" type="text/css"> 
 		<!-- Latest compiled and minified CSS -->
 			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<!-- Optional theme -->
 			<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+				 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<!-- Latest compiled and minified JavaScript -->
 			<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="stylesheets/style.css" type="text/css">
@@ -58,11 +67,11 @@ PARTIE BODY
 	<header>
 		<div>
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">"
+				<div class="col-md-10 col-md-offset-1">
 					<nav>
-						<a href class="top1" ="http://www.shoette.com">Recettes</a> |
-						<a href class="top1" ="http://www.shoette.com">Produits</a> |
-						<a href class="top1" ="http://www.shoette.com">Infos sur la boutargue</a>
+						<a href class="top1" ="http://www.shoette.com" target="_blank">Recettes</a> |
+						<a href class="top1" ="http://www.shoette.com" target="_blank">Produits</a> |
+						<a href class="top1" ="http://www.shoette.com" target="_blank">Infos sur la boutargue</a>
 					</nav>
 				</div>
 		</div>
@@ -76,7 +85,7 @@ PARTIE BODY
 		<div class="slider">
   		<h3>Recettes de plats à la boutargue</h3>
 			<div class="row">
-				<div class="col-md-10 col-md-offset-1">"
+				<div class="col-md-11 col-md-offset-1">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators">
@@ -87,16 +96,38 @@ PARTIE BODY
 					  <!-- Wrapper for slides -->
 					  <div class="carousel-inner">
 					    <div class="item active">
-					    	<div class="col-md-3 col-md-offset-2">"
+					    	<div class="col-md-3 col-md-offset-2">
 					      		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
 					      	</div>
-					      	<div class="col-md-5 col-md-offset-6">"
+					      	<div class="col-md-5 col-md-offset-6">
 					      		<div class="carousel-caption">
 					        	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
 					      		</div>
 					    	</div>
 					  	</div>
+				  	  <div class="item">
+				  	  	<div class="col-md-3 col-md-offset-2">
+				  	    		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
+				  	    	</div>
+				  	    	<div class="col-md-5 col-md-offset-6">
+				  	    		<div class="carousel-caption">
+				  	      	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
+				  	    		</div>
+				  	  	</div>
+				  	  </div>
+			  	      <div class="item">
+			  	    	<div class="col-md-3 col-md-offset-2">
+			  	      		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
+			  	      	</div>
+			  	      	<div class="col-md-5 col-md-offset-6">
+			  	      		<div class="carousel-caption">
+			  	        	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
+			  	      		</div>
+			  	    	</div>
+			  	  	  </div>
 					  <div>
+
+
 					  <!-- Controls -->
 					  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
 					  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
@@ -118,8 +149,10 @@ PARTIE BODY
   			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-			  	<i class="fa fa-angle-double-down">
-			  	</i>
+				<a href="#ancre1"> 
+			  		<i class="fa fa-angle-double-down">
+			  		</i>
+			  	</a>
 			  </div>
 			</div>
   		</div>
@@ -127,7 +160,7 @@ PARTIE BODY
 
 	<section class="bloc-produits">
 		<div class="produit">
-  			<h3>Produits traiteur à base de boutargue</h3><br>
+  			<h3 id="ancre1">Produits traiteur à base de boutargue</h3><br>
 			<div class="row">
 			  <div class="col-md-3 col-md-offset-1"><a href="http://www.shoette.com"><img src="images/pate.a.tartiner.boutargue.jpg" width="300px"></a></div>
 			  <div class="col-md-5 col-md-offset-1">Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. Ici le descriptif produit. </div>
@@ -140,7 +173,10 @@ PARTIE BODY
   			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-			  	<i class="fa fa-angle-double-down"></i>
+				<a href="#ancre2"> 
+			  		<i class="fa fa-angle-double-down">
+			  		</i>
+			  	</a>
 			  </div>
 			</div>
   		</div>
@@ -148,7 +184,7 @@ PARTIE BODY
 
 	<section class="bloc-infos">
   		<div class="text"> 
-  			<h3>Qui nous sommes</h3><br>
+  			<h3 id="ancre2">Qui nous sommes</h3><br>
 				<div class="row">
 			  		<div class="col-md-10 col-md-offset-1">
 			  			<p>Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. Intégrer ici le texte de présentation. </p>
@@ -156,14 +192,25 @@ PARTIE BODY
   				</div>
   		<div class="action">
   			<p>Pour être averti du mancement, entrez votre email ici</p>
-			<link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+			<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+				<form action="http://msieconnect.us7.list-manage.com/subscribe/post?u=eb159da88ff74c8a19b96e759&amp;id=6bae9f036a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div style="position: absolute; left: -5000px;"><input type="text" name="b_eb159da88ff74c8a19b96e759_6bae9f036a" tabindex="-1" value=""></div>
+				    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-default"></div>
+				</form>
+				</div>
+				<!--End mc_embed_signup-->
   		</div>
   		<div class="descendre">
   			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-			  	<i class="fa fa-angle-double-down">
-			  	</i>
+			  	<a href="#ancre3"> 
+				  	<i class="fa fa-angle-double-down">
+				  	</i>
+				</a>
 			  </div>
 			</div>
   		</div>
@@ -171,7 +218,7 @@ PARTIE BODY
 
 	<footer>
 		<section>
-			<div class="row">
+			<div class="row" id="ancre3">
 				<br>
 			  <div class="col-md-3 col-md-offset-1">
 			  	L'essentiel <br><br>
@@ -197,7 +244,7 @@ PARTIE BODY
 			  	<div class="col-md-7">
 			  		La Maison de la Boutargue © Copyright 2014 @LNAcorp
 			  	</div>
-				<div class="col-md-3 col-md-offset-1">"
+				<div class="col-md-3 col-md-offset-1">
 					<nav>
 						<a href="http://www.shoette.com">Plan du site</a> |
 						<a href="http://www.shoette.com">Contact</a>
@@ -206,9 +253,16 @@ PARTIE BODY
 			</div>
 		</section>
 	</footer>
-	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>		
+		
+	<script type="text/javascript">
+	$(document).ready(function () {
+	    $('.carousel').carousel({
+	        wrap: false
+	    });
 
+	    $('.carousel').carousel('cycle');
+	});
+	</script> 
 </body>
 </html>
 

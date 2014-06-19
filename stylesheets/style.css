@@ -82,6 +82,7 @@ h3 {
 
 /* STYLE POUR LE BODY */
 
+/*
 .carousel {
   height: 320px;
   overflow: hidden;
@@ -101,18 +102,29 @@ h3 {
 	}
 	/* - Je ne sais pas comment modifier la couleur du caroussel : je ne veux pas son dégradé, et je veux de la transparence comme un voile blanc sur le background de la section */
 
-section.bloc-recettes {
-	background-color:#E3A334;
-	border: 1px;
-	border-color: white;
+/* - Je ne sais pas ce que c'est, c'est juste pour tester 
+
+.carousel .item {
+  background-color:#ffffff;
+}
+
+*/
+
+.bloc-recettes {
+	background: url('../images/boutargue1-1.png');
+	background-position: cover;
+    height: auto;
+    width: 100%;*/
+    border: 1px;
+	border-color: black;
 	}
 
-section.bloc-produits {
-	background-color:#ADADAC;
+.bloc-produits {
+	background: url('../images/boutargue2-3.png');
 	}
 
 section.bloc-infos {
-	background-color:#DB7B1A;
+	background: url('../images/boutargue2-1.png');
 	}
 
 span.action{text-align:center}
@@ -139,7 +151,15 @@ div {
    	padding-bottom: 5px;
   	padding-right: 5px;
    	padding-left: 1px;
- }
+ 	}
+
+a .fa-angle-double-down {
+	color: #ffffff;
+	}
+
+
+
+
 
 /* ------- STYLE POUR LE FOOTER ------- */
 
