@@ -4,11 +4,13 @@
 	/* unvisited link */
 a:link {
     color: #D18708;
+    font-weight: bold;
 	}
 
 	/* visited link */
 a:visited {
     color: #D18708;
+    font-weight: bold;
 	}
 
 	/* mouse over link */
@@ -23,38 +25,42 @@ a:active {
     font-style: bold;
 	}
 
+p {line-height:110%;}
+
 
 /* ------- STYLE POUR LE HEADER ------- */
 
-a.top1:link {
-    color: #ADADAC;
-	}
+.nav {
+	font-size: 16px;
+	float: right;
+	margin-bottom: -15px;
+	margin-top: 5px;
+	line-height: 10px;
+ }
 
-	/* visited link */
-a.top1:visited {
-    color: #ADADAC;
-	}
-
-	/* mouse over link */
-a.top1:hover {
+.nav-pills >li >a {
     color: #D18708;
-    font-weight: bold; 
-	}
+    background-color:#eee;
+    width: 100px;
+    text-align: center;
+    margin-left: 6px;
+ }
 
-	/* selected link */
-a.top1:active {
-    color: #D18708;
-    font-style: bold;
-	}
+.nav-pills>li>a:hover {
+      /* border: 1px solid #D18708; */
+      }
 
-nav {
-	text-align:right;
-	color: #ADADAC;
-	}
+.nav>li>a:hover, .nav>li>a:focus {
+	background-color: #DBDBDB;
+}
 
-nav a {
- 	font-size: 14px;
- 	font-weight: bold;
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: #D18708;
+    /* border: 1px solid #D18708; */
+}
+
+.mon-header {
+	padding-left: 40px;
 	}
 
 h1 {
@@ -123,7 +129,7 @@ h3 {
 	background: url('../images/boutargue2-3.png');
 	}
 
-section.bloc-infos {
+.bloc-infos {
 	background: url('../images/boutargue2-1.png');
 	}
 

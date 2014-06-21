@@ -14,7 +14,7 @@ PARTIE HEAD
 	<meta name="author" content="Elena Web">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- HEAD TOUTES LES BALISES SCRIPT -->
-		<script type="text/javascript">
+			<script type="text/javascript">
 	 			var _gaq = _gaq || [];
 	  			_gaq.push(['_setAccount', 'UA-32203429-1']);
 	  			_gaq.push(['_trackPageview']);
@@ -26,14 +26,7 @@ PARTIE HEAD
 		</script>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 		</script>
-		<script>(function(d, s, id) {
-  			var js, fjs = d.getElementsByTagName(s)[0];
-  		if (d.getElementById(id)) return;
-  		js = d.createElement(s); js.id = id;
-  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
+
 		<script src="/script/script-mailchimp.html"></script>
 	<!-- HEAD TOUTES LES BALISES LINK notamment vers les feuilles de style -->
 	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
@@ -64,84 +57,47 @@ PARTIE BODY
 
 <body>
 
+<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 	<header>
-		<div>
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<nav>
-						<a href class="top1" ="http://www.shoette.com" target="_blank">Recettes</a> |
-						<a href class="top1" ="http://www.shoette.com" target="_blank">Produits</a> |
-						<a href class="top1" ="http://www.shoette.com" target="_blank">Infos sur la boutargue</a>
-					</nav>
-				</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<ul class="nav nav-pills">
+				  <li class="active"><a href="http://www.lamaisondelaboutargue.com">Recettes</a></li>
+				  <li><a href ="http://lamaisondelaboutargue.com/">Produits</a></li>
+				  <li><a href ="http://lamaisondelaboutargue.com/" target="_blank">Infos </a></li>
+				</ul>
+			</div>
 		</div>
-		<div class="header"> 
+		<div class="mon-header"> 
 			<h1>La maison de la boutargue</h1>
 			<h2>Recettes et produits autour de la boutargue</h2><br>
 		</div>
 	</header>
 
 	<section class="bloc-recettes">
-		<div class="slider">
-  		<h3>Recettes de plats à la boutargue</h3>
-			<div class="row">
-				<div class="col-md-11 col-md-offset-1">
-					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-					  <!-- Indicators -->
-					  <ol class="carousel-indicators">
-					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-					    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-					  </ol>
-					  <!-- Wrapper for slides -->
-					  <div class="carousel-inner">
-					    <div class="item active">
-					    	<div class="col-md-3 col-md-offset-2">
-					      		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
-					      	</div>
-					      	<div class="col-md-5 col-md-offset-6">
-					      		<div class="carousel-caption">
-					        	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
-					      		</div>
-					    	</div>
-					  	</div>
-				  	  <div class="item">
-				  	  	<div class="col-md-3 col-md-offset-2">
-				  	    		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
-				  	    	</div>
-				  	    	<div class="col-md-5 col-md-offset-6">
-				  	    		<div class="carousel-caption">
-				  	      	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
-				  	    		</div>
-				  	  	</div>
-				  	  </div>
-			  	      <div class="item">
-			  	    	<div class="col-md-3 col-md-offset-2">
-			  	      		<img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
-			  	      	</div>
-			  	      	<div class="col-md-5 col-md-offset-6">
-			  	      		<div class="carousel-caption">
-			  	        	Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. Suite de la recette (lien).
-			  	      		</div>
-			  	    	</div>
-			  	  	  </div>
-					  <div>
-
-
-					  <!-- Controls -->
-					  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-					  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		<div class="recettes">
+	  		<h3>Recettes de plats à la boutargue</h3>
+				<div class="row">
+					<div class="col-md-2 col-md-offset-1">
+						  <img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
 					</div>
-				</div>
-			</div>
-<!--
-  			dans une page dédiée, la totalité de la recette :
+					<div class="col-md-6 col-md-offset-2">
+						    Pour 4 personnes : 400g de spaghetti, 1 demi-boutargue, 1 citron non traité, 3 gousses d’ail frais (si possible rose), quelques feuilles de sauge, huile d’olive, piment d’Espelette. 
 				1. Faire cuire les spaghetti selon le temps indiqué sur l’emballage.<br>
 				2. A l’aide d’un petit couteau d’office, retirer la cire ou la membrane d’une demi-poutargue. Puis, trancher le plus finement possible la poutargue (avec un économe, une mandoline, ou un couteau d’office). Réserver dans une assiette. Râper le zeste du citron dessus. Presser le jus du fruit et réserver.<br>
 				3. Peler et hacher trois gousses d’ail. Rincer et sécher les feuilles de sauge, ciseler les grandes et conserver entières les petites.<br>
-				4. Egoutter les spaghetti et les mettre dans une jatte. Verser un filet d’huile dans la casserole encore chaude des pâtes, ajouter l’ail et le faire suer deux minutes en remuant. Ajouter trois pincées de piment d’Espelette. Remuer, verser les spaghetti et le jus de citron et bien mélanger pour lier le tout. Ajouter la sauge ciselée et les copeaux de poutargue au citron, mélanger et servir immédiatement.<br>
-  			</p>
-  -->
+				4. Egoutter les spaghetti et les mettre dans une jatte. Verser un filet d’huile dans la casserole encore chaude des pâtes, ajouter l’ail et le faire suer deux minutes en remuant. Ajouter trois pincées de piment d’Espelette. Remuer, verser les spaghetti et le jus de citron et bien mélanger pour lier le tout. Ajouter la sauge ciselée et les copeaux de poutargue au citron, mélanger et servir immédiatement.
+					</div>
+				</div>
+		</div>
   		<div class="action">			
 			<button type="button" class="btn btn-default"><a href="http://www.shoette.com" class="button">Découvrir d'autres recettes</a></button>
   		</div>
@@ -235,7 +191,7 @@ PARTIE BODY
 			  <div class="col-md-3 col-md-offset-0">
 			  	Boutargue Actu<br><br>
 			  	<a href="https://twitter.com/missboutargue" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @MissBoutargue</a></br>
-			  	Mettre une like box Facebook
+			  	<div class="fb-like" data-href="https://www.facebook.com/lamaisondelaboutargue" data-layout="button" data-action="like" data-show-faces="true" data-share="true"></div>
 			  </div>
 			</div>
 		</section>	
@@ -253,15 +209,6 @@ PARTIE BODY
 			</div>
 		</section>
 	</footer>
-		
-	<script type="text/javascript">
-	$(document).ready(function () {
-	    $('.carousel').carousel({
-	        wrap: false
-	    });
-
-	    $('.carousel').carousel('cycle');
-	});
 	</script> 
 </body>
 </html>
