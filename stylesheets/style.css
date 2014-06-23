@@ -4,25 +4,26 @@
 	/* unvisited link */
 a:link {
     color: #D18708;
-    font-weight: bold;
+    /*font-weight: bold;*/
+    text-decoration: none;
 	}
 
 	/* visited link */
 a:visited {
     color: #D18708;
-    font-weight: bold;
+    /*font-weight: bold;*/
 	}
 
 	/* mouse over link */
 a:hover {
     color: #000000;
-    font-weight: bold; 
+    /*font-weight: bold;*/ 
 	}
 
 	/* selected link */
 a:active {
     color: #000000;
-    font-style: bold;
+    /*font-style: bold;*/
 	}
 
 p {
@@ -122,8 +123,8 @@ h3 {
 
 .bloc-recettes {
 	background-color: #D75414;
-	background: url('../images/boutargue6light.png');
-	background-repeat:no-repeat;
+	background: url('../images/texture-boutargue.jpg') center top no-repeat;
+	/* background-repeat:no-repeat;*/
 	background-position: cover;
     height: auto;
     width: 100%;*/

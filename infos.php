@@ -1,14 +1,15 @@
 <?php include 'header.php'; ?>
 
-	<section class="bloc-recettes">
+	<section class="bloc-todo">
 		<div class="recettes">
-	  		<h3>Page infos</h3>
+	  		<h3>Nouvelle page à tester</h3>
 				<div class="row">
 					<div class="col-md-2 col-md-offset-1">
 						  <img src="images/spaghetti.boutargue.png" alt="ça c'est alt">
 					</div>
 					<div class="col-md-6 col-md-offset-2">
-						    Contenu à faire. 
+						    lalalala <br>
+				nanana
 					</div>
 				</div>
 		</div>
@@ -51,7 +52,5 @@
 			</div>
   		</div>
 	</section>
-
-
 
 <?php include 'footer.php'; ?>
