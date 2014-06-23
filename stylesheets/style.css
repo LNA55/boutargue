@@ -25,7 +25,9 @@ a:active {
     font-style: bold;
 	}
 
-p {line-height:110%;}
+p {
+	line-height:110%;
+}
 
 
 /* ------- STYLE POUR LE HEADER ------- */
@@ -33,13 +35,13 @@ p {line-height:110%;}
 .nav {
 	font-size: 16px;
 	float: right;
-	margin-bottom: -15px;
+	margin-bottom: 0px;
 	margin-top: 5px;
 	line-height: 10px;
  }
 
 .nav-pills >li >a {
-    color: #D18708;
+    color: #D75414;
     background-color:#eee;
     width: 100px;
     text-align: center;
@@ -55,12 +57,13 @@ p {line-height:110%;}
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
-	background-color: #D18708;
+	background-color: #D75414;
     /* border: 1px solid #D18708; */
 }
 
 .mon-header {
 	padding-left: 40px;
+	padding-bottom: 10px;
 	}
 
 h1 {
@@ -84,6 +87,7 @@ h3 {
 	color: #ffffff;	
 	font-family: sans-serif; 
 	text-align: center;
+	padding-bottom: 10px;
 	}
 
 /* STYLE POUR LE BODY */
@@ -117,7 +121,9 @@ h3 {
 */
 
 .bloc-recettes {
-	background: url('../images/boutargue1-1.png');
+	background-color: #D75414;
+	background: url('../images/boutargue6light.png');
+	background-repeat:no-repeat;
 	background-position: cover;
     height: auto;
     width: 100%;*/
