@@ -123,7 +123,7 @@ h3 {
 
 .bloc-recettes {
 	background-color: #D75414;
-	background: url('../images/texture-boutargue.jpg') center top no-repeat;
+	background: url('../images/boutargue2-2.png') center top no-repeat;
 	/* background-repeat:no-repeat;*/
 	background-position: cover;
     height: auto;
@@ -150,6 +150,7 @@ div.descendre {
 	text-align: center;
 	font-size: 20px;
 	color: #ffffff;
+	padding-top: 20px;
 	}
 
 section {
@@ -168,10 +169,22 @@ div {
 
 a .fa-angle-double-down {
 	color: #ffffff;
+	font-size: 40px;
 	}
 
+.btn-circle {
+	width: 70px;
+	height: 70px;
+	padding: 7px 16px;
+	border: 2px solid #ffffff;
+	border-radius: 35px;
+	font-size: 40px;
+	}
 
-
+.btn-circle>a:hover, .btn-circle>a:focus {
+	background-color: #red;
+}
+/* ça ne fonctionne pas comme sur le site de OneTask. Je veux que le fond soit blanc en hover */ 
 
 
 /* ------- STYLE POUR LE FOOTER ------- */

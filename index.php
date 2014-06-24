@@ -20,11 +20,10 @@
 			<button type="button" class="btn btn-default"><a href="http://www.shoette.com" class="button">Découvrir d'autres recettes</a></button>
   		</div>
   		<div class="descendre">
-  			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-				<a href="#ancre1"> 
-			  		<i class="fa fa-angle-double-down">
+				<a href="#ancre1" class="btn btn-circle"> 
+			  		<i class="fa fa-angle-double-down animated">
 			  		</i>
 			  	</a>
 			  </div>
@@ -44,11 +43,10 @@
   			<button type="button" class="btn btn-default"><a href="http://www.shoette.com" class="button">Pré-commander</a></button>
   		</div>
   		<div class="descendre">
-  			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-				<a href="#ancre2"> 
-			  		<i class="fa fa-angle-double-down">
+				<a href="#ancre2" class="btn btn-circle"> 
+			  		<i class="fa fa-angle-double-down animated">
 			  		</i>
 			  	</a>
 			  </div>
@@ -78,11 +76,10 @@
 				<!--End mc_embed_signup-->
   		</div>
   		<div class="descendre">
-  			<br>
   			<div class="row">
 			  <div class="col-md-2 col-md-offset-5">
-			  	<a href="#ancre3"> 
-				  	<i class="fa fa-angle-double-down">
+				<a href="#ancre3" class="btn btn-circle"> 
+			  		<i class="fa fa-angle-double-down animated">
 				  	</i>
 				</a>
 			  </div>

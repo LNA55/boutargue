@@ -75,7 +75,7 @@
 			</div>
 		</div>
 		<div class="mon-header"> 
-			<h1 style="display:inline; padding:0; margin:0 5 0 0;">La maison de la boutargue</h1>
+			<h1 style="display:inline; padding:0; margin:0 5 0 0;"><a href="../index.php">La maison de la boutargue</a></h1>
 			<p style="display:inline; padding:0; margin:0; font-weight:bold; color:#D75414" >&nbsp;&nbsp;&nbsp;Recettes et produits autour de la boutargue</p>
 		</div>
 	</header>
